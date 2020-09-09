@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
 
-const todos = [{
+let todos = [{
     id: '123',
     text: 'Learn jQuery',
     isCompleted: false,
